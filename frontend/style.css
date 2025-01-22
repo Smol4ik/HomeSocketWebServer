@@ -1,0 +1,70 @@
+body {
+    background-color: #3e6398;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    background-color: #263e60;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    gap: 70px;
+}
+.cardStyle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #facd77;
+    width: 270px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.cardStyle.cardStyle--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardStyle.cardStyle--flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.cardStyle p {
+    display: flex;
+    justify-content: center;
+}
+.cardStyle .card__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.cardStyle button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #263e60;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3f68a1;
+}
